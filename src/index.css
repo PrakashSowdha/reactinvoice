@@ -5,9 +5,119 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #3498db;
+}
+header {
+  height: 64px;
+  background: #312e81;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 2px 8px 0 rgb(0 0 0 / 50%);
+}
+header .logo {
+  font-size: 21px;
+  font-weight: 400;
+  color: white;
+  padding: 20px 30px;
+}
+footer {
+  font-size: 0.9em;
+  text-align: center;
+  padding: 1em;
+  color: #fff;
+}
+label {
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #383838;
+}
+.invoice {
+  margin-bottom: 0.3rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #383838;
+}
+
+input {
+  background-color: #e2f3ff;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  margin-bottom: 1.5rem;
+  color: #616161;
+}
+
+select {
+  background-color: #e2f3ff;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  margin-bottom: 1.5rem;
+  color: #616161;
+  font-size: 1rem;
+  display: block;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.red {
+  color: red;
+}
+
+.red,
+.red:visited {
+  color: red;
+}
+
+.right {
+  text-align: right;
+}
+
+.texts {
+  color: #a3a3a3;
+}
+.cborder {
+  border-top: 1px solid #d7d7d7;
+  padding: 10px 5px;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.col1 {
+  width: 187px;
+}
+.col2 {
+  width: 210px;
+  text-align: right;
+}
+.col3 {
+  width: 210px;
+  text-align: right;
+}
+.col4 {
+  width: 180px;
+  text-align: right;
+}
+.amount {
+  width: 180px;
+  text-align: right;
+}
+.col5 {
+  padding: 5px 0px 0px 10px;
+  color: red;
+}
+
+.tablemargin {
+  margin: 0px 0px 20px 0px;
+}
+.tablemargin tr td {
+  border-bottom: 1px dotted #ccc;
+}
+
+.textright {
+  text-align: right;
 }
